@@ -1,0 +1,1019 @@
+# Toonik Guide — the whole guide
+
+> The official user guide of Toonik, the frame-by-frame animation app for Android. Source: https://getsettalk.github.io/toonik-docs/
+
+# Getting started
+
+Toonik is a frame-by-frame animation app. You draw a picture, add a new frame, draw it again a
+little differently, and when the frames play one after another your drawing moves. Everything in
+the app is free, there is no account to create and no ads.
+
+## The home screen
+
+![The home screen with four projects](https://getsettalk.github.io/toonik-docs/screenshots/home.webp)
+
+- **Projects** and **Movies** — the two tabs. Swipe left or right to switch.
+- **☰ (menu)** — opens the side menu (see below). A pink dot means there is something new to read.
+- **🔔 (bell)** — your notifications from Toonik. A number shows how many are unread.
+- **Pink circle (top right)** — opens Settings.
+- **Bottom bar** — **Home**, **Objects** (the object library), **+** (new project), **Learn** (short
+  animation lessons) and **Settings**.
+
+Tap a project to open it. The small labels on each card show how long the animation is and its
+frames per second (fps).
+
+### The side menu
+
+![The side menu](https://getsettalk.github.io/toonik-docs/screenshots/home-menu.webp)
+
+**App settings**, **Object library**, **How to animate** (lessons), **What's new** (what each update
+brought), **Notifications**, **About**, **Rate this app** and **Share Toonik**.
+
+## Create a project
+
+Tap the pink **+** at the bottom.
+
+![New project screen](https://getsettalk.github.io/toonik-docs/screenshots/new-project.webp)
+
+1. **Project name** — type a name, or keep "My Animation 1".
+2. **Choose background** — the four buttons under the preview:
+   - **Presets** — paper, white, grid, lined, dot grid, sky, sunset, night sky, meadow, green
+     screen, black and more.
+   - **Camera** — take a photo and draw over it.
+   - **Gallery** — use a picture from your phone.
+   - **Color** — a plain colour (pick a swatch or type a HEX code).
+
+   ![Background presets](https://getsettalk.github.io/toonik-docs/screenshots/background-presets.webp)
+
+3. **Choose canvas size** — ready-made sizes for YouTube, YouTube Shorts, Instagram, TikTok,
+   stickers and more, or type your own width and height (64 to 2048 pixels).
+
+   ![Canvas sizes](https://getsettalk.github.io/toonik-docs/screenshots/canvas-size.webp)
+
+4. **Choose frames per second** — how many drawings play each second. **12 fps** is a good start.
+   The bouncing ball shows how fast it will look.
+
+   ![Frames per second](https://getsettalk.github.io/toonik-docs/screenshots/fps.webp)
+
+5. Tap **Create project**.
+
+> **Good to know:** the canvas size cannot be changed after the project is created. The name,
+> speed and background can be changed any time in **Project settings**.
+
+## Work with your projects
+
+**Long-press** a project to select it. Tap more cards to select several.
+
+![Selecting a project](https://getsettalk.github.io/toonik-docs/screenshots/home-select.webp)
+
+The bar at the bottom then lets you:
+
+- ✏️ **Rename** (one project at a time)
+- ⧉ **Duplicate** — makes a copy called "… copy"
+- **Share / Export project** — saves the whole project as a `.flippa` file you can send, back up or
+  open on another phone
+- 🗑 **Delete** — asks first, and cannot be undone
+
+Tap **✕** at the top to leave selection mode.
+
+### Sort, import and select
+
+Tap **⋮** next to the tabs.
+
+![Sort and import menu](https://getsettalk.github.io/toonik-docs/screenshots/home-sort.webp)
+
+- **Sort by** — Last modified, Name or Date created.
+- **Import project** — open a Toonik backup (`.flippa`) or a **FlipaClip project (`.fc`)**. It is
+  added as a new project; nothing you already have is replaced. From FlipaClip, the layers and
+  drawings come across (layer effects and sound do not).
+- **Select** — start selection mode.
+
+### Time-lapse recording
+
+Toonik can record every stroke you draw and turn it into a time-lapse video of your drawing.
+Select a project, tap **⋯** at the top, and switch on **Time-Lapse Recording**. Later, use **Share
+Time-Lapse** from the same place. Time-lapse videos also appear in the **Movies** tab.
+
+![Project options](https://getsettalk.github.io/toonik-docs/screenshots/project-options.webp)
+
+## Your work is saved automatically
+
+Toonik saves while you draw (every 10 seconds by default — you can change this in Settings) and
+again when you leave the editor or switch to another app. Your projects stay on your phone; nothing
+you draw is uploaded anywhere.
+
+## What's new and notifications
+
+**What's new** (side menu) lists every update and what it changed. The **bell** keeps the latest 15
+messages from Toonik, even ones you missed. Tap a message to open its link.
+
+![What's new](https://getsettalk.github.io/toonik-docs/screenshots/whats-new.webp)
+
+![Notifications](https://getsettalk.github.io/toonik-docs/screenshots/notifications.webp)
+
+---
+
+# The editor
+
+This is where you draw. Here is what every part does.
+
+![The editor](https://getsettalk.github.io/toonik-docs/screenshots/editor.webp)
+
+## Top bar
+
+| Button | What it does |
+|---|---|
+| **✕** | Saves and closes the project |
+| **Pink diamond** | Opens the **Object library** to add a ready-made character or one of your saved objects |
+| **TIMELINE** | Opens the full timeline (see *Frames and timeline*) |
+| **Hide interface** (the square icon) | Hides the bars so you see more of your drawing |
+| **Pink share arrow** | **Make movie** — export your animation |
+| **⋮** | The project menu: add images, audio, stickers, onion skin, grid, project settings and more |
+
+## The toolbar
+
+The white bar near the top holds your tools: **Brush**, **Eraser**, **Lasso**, **Fill**, one more
+tool that changes to the last one you used (Text at first), and **⋯** for the rest (**Text**,
+**Smudge**, **Blur**, **Magic cut**, **Eyedropper**).
+
+![More tools](https://getsettalk.github.io/toonik-docs/screenshots/more-tools.webp)
+
+You can put the toolbar anywhere:
+
+- **Drag the dotted grip** on its left end to move it.
+- **Tap the grip** to turn it between lying flat and standing up.
+- **Drop it at the side** of the screen and it stands up along the edge.
+- **Drop it down by the frames** and it folds up to just the current tool and an arrow — tap either
+  to see every tool in a column. Drag it back up to unfold it.
+
+![Folded toolbar with the tool list open](https://getsettalk.github.io/toonik-docs/screenshots/toolbar-collapsed.webp)
+
+## The tool options pill
+
+The pill on the right edge changes with the tool. For the brush it shows **Brush** (choose a brush),
+**Size**, **Opacity**, **Color** and **Ruler**.
+
+- **Drag up or down** on a control to change it — a bubble shows the value.
+- **Tap or long-press** a control to open all the settings for that tool.
+- **Tap Color** to open the colour picker.
+- Drag its top grip to move the pill anywhere. Let go near a side and it stands against that side.
+  (**Left-handed toolbar** in Settings starts it on the left edge.)
+- Let go of it down by the timeline and it folds to its main controls (**Size** and **Color** for the
+  brush) and an arrow. Tap the arrow to open the rest upwards, and again to fold them. Drag it back up
+  to unfold it.
+
+## The bottom bar
+
+**Audio**, **Image/Video**, **Undo**, **Redo**, **Copy**, **Paste** and **Layer** (the pink number is
+the layer you are drawing on). The frames of your animation sit just above it.
+
+- **Copy** copies what you have selected, or the whole layer if nothing is selected.
+- **Paste** puts it back as a selection in **the same spot** — handy for carrying a drawing to the
+  next frame.
+
+## Gestures on the canvas
+
+| Gesture | Does |
+|---|---|
+| One finger | Draws with the current tool |
+| Two fingers pinch | Zoom in and out |
+| Two fingers drag | Move around the canvas |
+| Two fingers twist | Rotate the canvas (can be turned off in Settings) |
+| Two-finger tap | **Undo** |
+| Three-finger tap | **Redo** |
+| Any tap while playing | Stops playback |
+
+## Smooth zoom
+
+Zoom in close and your lines stay crisp instead of turning into blurry blocks of pixels. Soft
+brushes stay soft. Only how it looks on screen changes — your drawing and your movies are exactly
+the same. Needs Android 13 or newer; turn it off in **Settings → Canvas & gestures → Smooth zoom**
+if you want to see the real pixels (for pixel art).
+
+![Smooth zoom off and on](https://getsettalk.github.io/toonik-docs/screenshots/smooth-zoom-compare.webp)
+
+## Hide interface
+
+Tap the **hide interface** button to see more of your drawing. A small set of controls stays: your
+current tool, **Show** (brings everything back), **Copy**, **Paste**, play, the frame numbers and
+**Layers**.
+
+![Interface hidden](https://getsettalk.github.io/toonik-docs/screenshots/hide-interface.webp)
+
+## The project menu (⋮)
+
+![The project menu](https://getsettalk.github.io/toonik-docs/screenshots/stage-menu.webp)
+
+At the top you see the project's size, speed and number of frames. Then:
+
+- **Add image**, **Add video**, **Audio**, **Objects**
+- **Make sticker**, **Save as object**, **Frames** (all frames in a grid), **Help & tips**
+- **Onion skin** and **Grid** — switch them on or off here; **Edit** changes their settings
+- **Project settings** — name, speed, timing, drawing outside the canvas and background
+- **Make movie**
+
+## Project settings
+
+![Project settings](https://getsettalk.github.io/toonik-docs/screenshots/project-settings.webp)
+
+- **Project name**
+- **Frames per second** — the speed of the whole animation (1 to 60)
+- **Timing** — hold every drawing for 1, 2 or 3 frames (**On ones / On twos / On threes**)
+- **Canvas size** — shown here, but fixed once the project exists
+- **Draw outside the canvas** — room around the canvas to draw in, and **Room size** to set how much
+  (see *Images, video and objects*)
+- **Background** — presets, a colour or a picture
+- **Stage background** — the colour around the canvas while you draw (not in your movie)
+
+Tap **✓** to save or **✕** to close without saving.
+
+## Leaving the editor
+
+**✕** or your phone's back button saves and closes. The back button first closes whatever is open
+(a menu, a sheet, a selection), so press it again to leave.
+
+---
+
+# Drawing tools and colours
+
+## Brush
+
+Pick **Brush** in the toolbar, then tap **Brush** on the right pill to choose from **41 brushes** in
+six groups: Basic (Pen, Pen Soft, Ink, Highlighter, Airbrush, Pixel…), Sketch (Pencil, Crayon,
+Calligraphy…), Texture (Spray, Grain, Halftone…), Effect (Gradient, 3D Brush, Candy Cane, Sparkles),
+Shape (Dots, Squares, Dash…) and Fun (Sprinkles, Leaves, Hair, Fur). Brushes you make yourself are
+at the top, under **My brushes**.
+
+![Brush library](https://getsettalk.github.io/toonik-docs/screenshots/brush-library.webp)
+
+Your brush, tool sizes and colours stay as you left them, in every project, even after closing the
+app.
+
+Tap a brush to use it, or the **›** next to it to change its settings:
+
+![Brush settings](https://getsettalk.github.io/toonik-docs/screenshots/brush-settings.webp)
+
+- **Stabilizer** — smooths out shaky lines. Higher is smoother but follows your finger more slowly.
+- **Thickness** — 1 to 200 pixels.
+- **Opacity** — how see-through the stroke is.
+- **Color** — and for two-colour brushes (Gradient, Candy Cane, Sparkles, Sprinkles, Static) a
+  **Second color**.
+- **Pressure & advanced** — with a stylus, pressure can change the size and/or opacity.
+
+**Tip:** double-tap the Brush tool to switch the ruler on or off.
+
+### Make your own brush
+
+Tap **New brush** under **My brushes** to open the brush maker. Draw on the paper at the top to try
+the brush: every change below is painted again on your own line straight away. Tap **✓** to keep the
+brush; it goes into **My brushes** and into your hand. The **›** next to one of your brushes opens it
+again to change it.
+
+![Brush maker](https://getsettalk.github.io/toonik-docs/screenshots/brush-maker.webp)
+
+- **Name** — what the brush is called in the list.
+- **Start from** — ready-made looks to begin with: Ink pen, Sketch pencil, Chisel marker, Soft
+  airbrush, Dry brush, Chalk, Splatter, Stars, Twinkles, Hearts, Leaves, Bubbles and Confetti.
+- **Tip** — the shape the brush stamps along the line: Round, Soft, Pencil, Chalk, Square, Bristle,
+  Splatter, Star, Sparkle, Heart, Leaf, Ring — or **Picture**, any picture from your gallery. A dark
+  shape on light paper or a PNG with a see-through background works best; **Paint with the light
+  parts** flips a light shape on a dark picture.
+  - **Roundness** squashes the tip into a flat nib, **Angle** turns it, and **Turn with the stroke**
+    makes it follow the direction you draw in (good for leaves, bristles and calligraphy).
+- **Stroke** — **Brush size** and **Color** (the same as in the brush settings), **Spacing** (how far
+  apart the stamps are), **Flow** (how strong each stamp is: below 100% they build up where they
+  overlap) and **Stamps per step**.
+- **Taper** — how the line thins at its **Start** and **End**, and whether it also fades. The end
+  thins as you lift your finger, once the length of the line is known.
+- **Randomness** — every stamp a little different: **Size**, **Opacity**, **Angle**, **Scatter**
+  (away from the line), **Hue** and **Brightness**.
+- **Texture** — paper grain the line is pressed through (Pencil, Crayon, Canvas, Grunge, Dots,
+  Hatch), with its **Depth** and **Scale**. The grain stays on the paper, like a real pencil.
+- **Save as a copy** and **Delete brush** are at the bottom when you change a brush you made.
+
+Your brushes are kept with the app, so every project can use them. Size, opacity, colour and
+smoothing still come from the brush settings, the same as for the built-in brushes.
+
+## Eraser
+
+![Eraser with its size outline](https://getsettalk.github.io/toonik-docs/screenshots/eraser-outline.webp)
+
+The eraser removes drawing from the current layer only.
+
+- **Size** — 1 to 200 pixels. While you erase, a **circle the size of the eraser** follows your
+  finger, so you can see exactly what will go. (You can turn the circle off in **Settings → Drawing
+  → Eraser outline**.)
+- **Fade** — softens the eraser's edge, so drawings fade out at its rim instead of being cut sharply.
+- **Opacity** — lower opacity erases a little at a time.
+
+## Fill
+
+Tap inside a closed shape to fill it with colour.
+
+![Fill tool](https://getsettalk.github.io/toonik-docs/screenshots/fill-tool.webp)
+
+- **Threshold** — how different a colour can be from the spot you tap and still get filled. Raise it
+  if a fill leaves gaps around the edges.
+- **Sample all layers** (in the fill settings) — the lines on every visible layer act as the edge,
+  but the colour goes on the current layer. Perfect for colouring under a separate line-art layer.
+
+## Text
+
+Choose **Text** (in **⋯** if you can't see it), then tap where the text should go. Its pill on the
+right sets the **Color**, **Size** and **Font** before you start.
+
+![Text tool](https://getsettalk.github.io/toonik-docs/screenshots/text-tool.webp)
+
+![Add text](https://getsettalk.github.io/toonik-docs/screenshots/text-dialog.webp)
+
+Type your words, pick a **Font** (Sans, Serif, Mono, Cursive, Condensed, Poppins), a **Size**,
+**Bold**/**Italic**, the alignment and a **Color**, then tap **Add**. The text appears as a
+selection you can move, resize and rotate before you put it down.
+
+## Smudge, Blur, Magic cut and Eyedropper
+
+All four are in the **⋯** card on the toolbar.
+
+- **Smudge** — pushes and blends colours like a finger in wet paint. **Strength** sets how far the
+  colour travels.
+- **Blur** — softens lines under your stroke.
+- **Magic cut** — tap the background around a drawing and it is lifted off in one go, ready to move,
+  resize or save as an object. Tap inside a drawing instead to cut out just that shape.
+- **Eyedropper** — tap anywhere to pick that colour. You go straight back to the tool you were using.
+
+## The colour picker
+
+Tap **Color** on the right pill.
+
+![Colour wheel](https://getsettalk.github.io/toonik-docs/screenshots/color-picker.webp)
+
+- **Top bar:** the eyedropper (pick a colour from your drawing), **+** (add this colour to your
+  palette), and the old and new colours — tap the old one to go back to it.
+- **Tabs at the bottom:**
+  - **Wheel** — hue ring, brightness/saturation in the middle, opacity on the arc. Pinch or
+    double-tap the middle to zoom for fine control.
+  - **Classic** — a square with sliders.
+  - **Harmony** — colours that go together (complementary, triadic and more).
+  - **Value** — type exact HEX, HSV or RGB numbers.
+  - **Swatch** — your recent colours and palettes.
+
+![Palettes](https://getsettalk.github.io/toonik-docs/screenshots/color-swatches.webp)
+
+Toonik comes with palettes (Basic, Sketch, Retro Animation, Neon and more). Tap **New palette** to
+make your own (up to 12 colours each). **Long-press a colour to replace it**, and swipe a palette
+to rename, duplicate or delete it.
+
+## Ruler and guides
+
+Tap **Ruler** on the pill (or double-tap the Brush tool). A bar appears at the bottom.
+
+![Ruler bar](https://getsettalk.github.io/toonik-docs/screenshots/ruler.webp)
+
+- **Line**, **Circ** (circle/oval) and **Box** — draw along a perfect shape. Move and size the guide
+  with its pink handles. Tap the active shape again to remove it.
+- **Mirr** — mirror: whatever you draw on one side is drawn on the other too.
+- **Pers** — perspective guides with 1, 2 or 3 vanishing points (**1PT / 2PT / 3PT**). Strokes that
+  start near a guide line follow it. **Grid** shows more or fewer lines. Drag a pink point to move it.
+  A point that is off the screen or under the bars waits at the edge with a small arrow towards it:
+  drag that one and the point moves with your finger.
+- **Lock** — keeps the guides from moving by accident.
+- **✕** — closes the ruler.
+
+![Circle and mirror guides](https://getsettalk.github.io/toonik-docs/screenshots/ruler-circle-mirror.webp)
+
+![Perspective guides](https://getsettalk.github.io/toonik-docs/screenshots/perspective.webp)
+
+---
+
+# Select, move, crop and animate
+
+## Select with the lasso
+
+1. Choose **Lasso** in the toolbar.
+2. Draw a loop around what you want. It doesn't have to be neat — Toonik picks up just the drawing
+   inside the loop and fits the box tightly around it.
+3. The drawing now floats in a box you can change.
+
+**Tip:** double-tap the Lasso tool to select everything on the layer.
+
+![A selection with its handles](https://getsettalk.github.io/toonik-docs/screenshots/lasso-box.webp)
+
+## The box
+
+| Part | What to do |
+|---|---|
+| **Inside the box** | Drag to move it |
+| **White round corners** | Drag to make it bigger or smaller (keeps its shape) |
+| **White bars on the edges** | Drag to stretch it wider or taller |
+| **↻ button below the box** | Drag around to rotate. It clicks into place at every 15° |
+| **⋯ button above the box** | More options (see below) |
+| **Two fingers on the box** | Pinch to resize and twist to rotate |
+
+**Tap outside the box** to put the drawing down. Press **Back** to cancel and leave everything as it
+was.
+
+You can move a selection into the room around the canvas too (see *Images, video and objects*).
+
+## The bar under the box
+
+**Trsf** (move, resize, rotate), **Persp** (drag each corner freely for a perspective look), **Move**
+(exact placement, below), **Flip** (left–right), **Flip** (up–down), **Crop**, **Animate** and
+**Erase** (delete what is selected).
+
+## Move it exactly
+
+When a finger is not precise enough, tap **Move**. Arrows appear above the bar:
+
+![Moving a selection with the arrows](https://getsettalk.github.io/toonik-docs/screenshots/selection-move.webp)
+
+- **Tap an arrow** to move the selection one step, or **hold it** to keep moving.
+- **X** and **Y** show where the top left of the box is on the canvas, in pixels.
+- The button on the right switches the step between **1 px** and **10 px**.
+
+## The ⋯ menu
+
+![Selection options](https://getsettalk.github.io/toonik-docs/screenshots/selection-options.webp)
+
+Choose **Transform** or **Perspective**, **Add to selection** or **Remove from selection**, or
+**Crop**, **Flip horizontally**, **Flip vertically** and **Delete**.
+
+### Add to or remove from a selection
+
+Tap **Add to selection** or **Remove from selection** in the ⋯ menu. The box steps aside and the
+selection shows as a dotted outline. Now every loop you draw is added to it (**Add**), or cut out of
+it (**Remove**) — switch between the two on the bar below. Draw as many loops as you like; pinch to
+zoom in for small parts. Tap **Done** (or Back) and the box comes back around everything selected,
+ready to move, flip or animate.
+
+## Crop
+
+Trim a picture you added, or anything you selected.
+
+![Crop](https://getsettalk.github.io/toonik-docs/screenshots/crop.webp)
+
+- Drag the **corners** and **edges**, or drag inside to move the crop box.
+- Pick a shape: **Free**, **1:1**, **4:3**, **3:4**, **16:9** or **9:16**.
+- **Trim edges** cuts away empty, see-through margins in one tap.
+- **Reset** starts again. **Apply** keeps the cropped part exactly where it was, still selected.
+
+## Animate a selection
+
+Turn the selected drawing into a movement in one go — Toonik draws all the frames for you.
+
+![Animate selection](https://getsettalk.github.io/toonik-docs/screenshots/animate.webp)
+
+1. Tap **Animate**.
+2. Pick a **Preset** (Move left to right, Bounce, Spin, Grow, Shrink, Fade in, Fade out, Shake,
+   Float…), or set it up yourself: choose **Start** or **End**, then set **Position** (drag the S and
+   E handles on the preview, or use **X** and **Y**: the slider gets close, **−** and **+** move one
+   pixel, and holding them keeps going), **Scale**, **Rotation** and **Opacity**. To place a handle
+   precisely, tap the **magnifier** in the corner of the preview for a close-up of it (tap again to
+   see the whole stage), or pinch the preview with two fingers; one finger moves around while
+   zoomed in.
+3. Under **Timing**, choose how many **Frames** it lasts, the **Easing** (Linear, Ease in, Ease out,
+   Bounce, Elastic…), how many times to **Repeat**, and **Back and forth**.
+4. Tap **Create animation**. The movement is put on a new layer called "Animation".
+
+## Copy to another frame
+
+1. Select the drawing with the lasso.
+2. Tap **Copy** in the bottom bar.
+3. Go to another frame and tap **Paste**. The copy appears **in the same spot**, still selected, so
+   you can nudge it before putting it down.
+
+## Save as an object
+
+Keep a drawing to use again in any project: open **⋮ → Save as object**, choose **Selection**,
+**Current layer** or **Animation** (a range of frames), give it a name and tags, and tap **Save
+object**. It appears in the Object library.
+
+---
+
+# Frames, onion skin and the timeline
+
+An animation is a row of frames. Each frame is one drawing; played quickly one after another, they
+move.
+
+## The frame strip
+
+The thumbnails above the bottom bar are your frames. The current one is in the middle with a pink
+border.
+
+- **Tap** a frame to go to it.
+- **Drag the strip** (or the pink handle above it) to scrub through the animation. A readout shows
+  the current frame, the total and the seconds.
+- **Pink +** — adds a new, empty frame after the current one.
+- **▶** plays the animation, **⏮ / ⏭** jump to the first and last frame. Tap the screen to stop.
+
+## Frame actions
+
+**Long-press a frame** to open its actions.
+
+![Frame actions](https://getsettalk.github.io/toonik-docs/screenshots/frame-actions.webp)
+
+- **Hold** − / + — show this drawing for longer (up to 48 frames) without drawing it again.
+- **Duplicate**, **Delete**, **Copy**, **Paste before**, **Paste after**, **Move left**, **Move
+  right**, **Share** (as a picture).
+- Tap **Done**, or anywhere outside the bar, to close it.
+
+## Onion skin
+
+Onion skin shows faint copies of the frames before and after, so you can line up your next drawing.
+It is on for new projects and never shows in your movie.
+
+![Onion skin on the canvas](https://getsettalk.github.io/toonik-docs/screenshots/onion-skin-stage.webp)
+
+Change it in **⋮ → Onion skin → Edit**:
+
+![Onion skin settings](https://getsettalk.github.io/toonik-docs/screenshots/onion-skin.webp)
+
+- **Colored** — earlier frames red, later frames green.
+- **Looping** — the last frame also shows the first, for animations that loop.
+- **Frames before / after** — how many neighbours to show (0–10).
+- **Transparency before / after** and **Skip frames**.
+
+## Grid
+
+**⋮ → Grid** draws guide lines over the canvas to help with spacing. **Edit** sets the line spacing
+and how strong they are. The grid is never in your movie.
+
+## The full timeline
+
+Tap **TIMELINE** at the top for a bigger view of every frame, drawn to scale, with your layers and
+audio.
+
+![The timeline](https://getsettalk.github.io/toonik-docs/screenshots/timeline.webp)
+
+- **Tap** a frame to go to it.
+- **Drag the pink grip** on the edge of the current frame to hold it longer or shorter.
+- **Long-press** a frame to select it; keep dragging to move it. Tap more to select several.
+- **Pinch** to zoom the timeline.
+- The **Hold** card at the bottom left changes the selected frame's hold; the preview on the right
+  plays the animation.
+
+![Several frames selected](https://getsettalk.github.io/toonik-docs/screenshots/timeline-select.webp)
+
+### Groups and loops
+
+Select some frames and tap **Group**. The group can now be repeated with **Loop** — great for a walk
+cycle or a blinking eye that plays several times. **Ungroup** undoes it and **Split** cuts a group
+in two.
+
+![A frame group with a loop](https://getsettalk.github.io/toonik-docs/screenshots/timeline-group.webp)
+
+The bar at the bottom also has **Undo**, **Redo**, **Select / Deselect**, **Duplicate**, **Copy**,
+**Paste**, **Delete** and **Layer**. Tap **TIMELINE** again (or ✕ on the preview) to close it.
+
+## All frames at once
+
+**⋮ → Frames** shows every frame in a grid. Tap one to open it, long-press to select (then
+duplicate, delete, copy, paste or share), or long-press and drag to move.
+
+![Frames viewer](https://getsettalk.github.io/toonik-docs/screenshots/frames-viewer.webp)
+
+## Speed and timing
+
+- **Frames per second** (Project settings) sets the speed of the whole animation. 12 fps is a good
+  start; 24 fps looks like film; 4–8 fps looks choppy on purpose.
+- **Timing** — *On twos* holds every drawing for two frames, so you draw half as many for the same
+  length. Hold single frames from the frame actions or the timeline.
+
+---
+
+# Layers
+
+Layers are like clear sheets stacked on top of each other. Put the background on one, a character on
+another, and you can redraw the character without touching the background. A project can have up to
+**15 layers**.
+
+Tap **Layer** in the bottom bar.
+
+![Layers](https://getsettalk.github.io/toonik-docs/screenshots/layers.webp)
+
+- The layer at the **top** of the list is drawn on top.
+- **Tap** a layer to draw on it. Tap the selected layer's name to rename it.
+- **≡ handle** — drag to change the order (or long-press the row and drag).
+- **👁 eye** — hide or show the layer.
+- **Pink +** — add a new layer.
+- **›** — the layer's settings.
+
+**Swipe a layer to the left** for **Lock** (stops any drawing on it), **Merge** (joins it with the
+layer below), **Duplicate** and **Delete**.
+
+![Layer actions](https://getsettalk.github.io/toonik-docs/screenshots/layer-swipe.webp)
+
+## Layer settings
+
+![Layer settings](https://getsettalk.github.io/toonik-docs/screenshots/layer-settings.webp)
+
+- **Name** and **Opacity**.
+- **Blending mode** — how the layer mixes with the ones below: Normal, Multiply (great for
+  shadows), Screen (light), Overlay, Darken, Lighten, Add, Color Dodge, Color Burn, Hard Light, Soft
+  Light, Difference, Exclusion, Hue, Saturation, Color and Luminosity.
+
+  ![Blending modes](https://getsettalk.github.io/toonik-docs/screenshots/blend-modes.webp)
+
+- **Alpha lock** — paint only over what is already drawn on this layer. Perfect for shading inside
+  the lines.
+- **Clipping mask** — show this layer only where the layer below has drawing. Put a pattern or
+  shadow layer above a character and clip it.
+- **Pixel effect** — turns the layer into chunky pixels (choose the pixel size).
+- **Glow** — a soft glow around the drawing, with its own colour, size and strength.
+- **Merge down** — joins this layer with the one below. **Undo** brings both back. **Duplicate** and
+  **Delete** are here too.
+
+Deleting a layer removes it from **every** frame.
+
+---
+
+# Images, video, objects and drawing outside the canvas
+
+## Add an image or a video
+
+Tap **Image/Video** in the bottom bar.
+
+![Add image or video](https://getsettalk.github.io/toonik-docs/screenshots/import-media.webp)
+
+- **Photos** — pick one picture, or several at once (up to 30).
+- **Videos** — turn a clip into frames.
+- **Photo camera** / **Video camera** — take a photo or record a clip right now.
+- **File** — from Google Drive, Downloads or any other app.
+
+One picture lands on the canvas as a selection: move it, resize it, **Crop** it, then tap outside to
+put it down.
+
+When you pick **several pictures**, Toonik asks:
+
+- **One per frame** — each picture on a frame of its own. Great for turning photos into a
+  stop-motion animation.
+- **All on this frame** — side by side on the current frame, to arrange together.
+
+### Importing a video
+
+![Import video](https://getsettalk.github.io/toonik-docs/screenshots/video-import.webp)
+
+- Drag the ends of the bar to choose the part of the clip (**Start** and **End**).
+- **Import as** — **Animation** (many frames) or **Single frame** (one still picture).
+- **Look** — **Original**, **Line art** (turns the video into drawn lines; choose **Clean**,
+  **Medium** or **Rich** detail) or **Trace guide** (a faint, locked layer with an empty "Ink" layer
+  on top, so you can trace over the video).
+- **Timing** — **On ones** or **On twos**.
+
+The video goes on a new layer, starting at the current frame. Long clips make many frames, so pick
+just the part you need.
+
+## Draw outside the canvas
+
+New projects have **room around the canvas**: draw a character off-screen and walk it in, or draw a
+wide background for a camera move. Only what is inside the canvas ends up in your movie.
+
+![Drawing in the room around the canvas](https://getsettalk.github.io/toonik-docs/screenshots/draw-outside.webp)
+
+Zoom out to see how much room there is — the dashed line is its edge:
+
+![Zoomed out](https://getsettalk.github.io/toonik-docs/screenshots/draw-outside-zoomed.webp)
+
+Turn it on or off in **⋮ → Project settings → Draw outside the canvas**. Turning it off crops
+everything drawn outside the canvas from every frame (you will be asked first).
+
+### Make the room bigger or smaller
+
+While it is on, **Room size** under the switch sets how much room there is, by its width and height:
+
+![Room size](https://getsettalk.github.io/toonik-docs/screenshots/room-size.webp)
+
+- Drag **Width** or **Height**, or tap **−** and **+** to move each side by 10 px. **Automatic** goes
+  back to the size Toonik picks; **Current** to what you have now.
+- The preview shows your drawing staying where it is, the new edge in pink and, in red, anything
+  that would be cut off. You are asked before anything is cut.
+- Each layer of each frame is one picture this size, so room uses memory: **Memory** shows how much.
+  When one side reaches what your device allows, make the other smaller to go further. Phones and
+  tablets with more memory get more room.
+- Tap **Apply**. Changing the room can't be undone and clears Undo.
+
+## The Object library
+
+Ready-made drawings and animations you can drop into any project, plus everything you save yourself.
+Open it from the **pink diamond** in the editor or **Objects** on the home screen.
+
+![Object library](https://getsettalk.github.io/toonik-docs/screenshots/object-library.webp)
+
+- **Built-in objects** — walk and run cycles, a bouncing ball, a jumping person, a fox, a flapping
+  bird, people and animals seen from the front, back and sides (dog, cat, bird, rabbit, panda, fish),
+  trees, bamboo, rocks, clouds, sun, moon, stars, a house, a beach ball and a car.
+- **Filters** — All, Static, Animated, Favourites, Built-in. **🔍** searches by name or tag.
+- Tap an object for its details, to add it to your **favourites**, or to **duplicate** a built-in one
+  so you can change it.
+
+![Object details](https://getsettalk.github.io/toonik-docs/screenshots/object-detail.webp)
+
+From the editor the library opens as **Insert object** — tap an object to add it:
+
+![Insert object](https://getsettalk.github.io/toonik-docs/screenshots/insert-object.webp)
+
+When you add an object to a project you can:
+
+- **Place** — put one frame of it on the canvas as a selection.
+
+  ![Place an object](https://getsettalk.github.io/toonik-docs/screenshots/insert-object-place.webp)
+
+- **Stamp** (animated objects) — draw its whole animation across your frames, repeated as many times
+  as you like, on the current layer or a new one.
+
+  ![Stamp an animation](https://getsettalk.github.io/toonik-docs/screenshots/insert-object-stamp.webp)
+
+- **Animate** — move it across the canvas with a motion you choose, like *Animate selection*.
+
+### Save your own objects
+
+Select a drawing with the lasso (or use a whole layer, or a range of frames), then **⋮ → Save as
+object**. Give it a name and tags so it is easy to find later.
+
+---
+
+# Sound
+
+Tap **Audio** in the bottom bar to open the audio editor.
+
+![Audio editor](https://getsettalk.github.io/toonik-docs/screenshots/audio-editor.webp)
+
+- The **preview** at the top shows the frame under the blue playhead.
+- **🔊** mutes or unmutes all sound while you work.
+- **⏮ ▶ ⏭** — play from here, or jump to the start or end.
+- The four buttons on the right: **Sound FX** (opens the sound library), **Voice maker**, **Record
+  audio** and **Import audio** (music, or the sound of a video file, from your phone).
+- There are **6 tracks**, so sounds can play at the same time. Each track can be muted or locked.
+- Your frames run along the bottom, so you can line a sound up with the exact drawing.
+
+New sounds are placed at the playhead. **Drag** a clip to move it, drag its ends to trim it, and
+**pinch** to zoom in for precise timing.
+
+## Clip actions
+
+**Long-press a clip** for **Rename**, **Duplicate**, **Split at playhead**, **Volume** and **Delete**.
+
+![Clip actions](https://getsettalk.github.io/toonik-docs/screenshots/clip-actions.webp)
+
+## The sound library
+
+**169 sounds, all free to use** in your animations, in themed packs: Toonik basics, Fight, Cartoon &
+game, Footsteps & moves, Home & objects, Sci-fi & machines, Clicks & alerts, Music jingles and
+Voices (an announcer saying "3, 2, 1, Go!", "You win", "Game over"…).
+
+![Sound library](https://getsettalk.github.io/toonik-docs/screenshots/sound-library.webp)
+
+Open a pack, tap **▶** to listen and **+ ADD** to put it on the timeline. Every sound has a short
+description of what it sounds like.
+
+![A sound pack](https://getsettalk.github.io/toonik-docs/screenshots/sound-pack.webp)
+
+### Searching
+
+Type what you want to hear, in your own words — one word or a whole sentence:
+
+- "door" · "someone slamming the door shut" · "footsteps on snow" · "laser gun" · "a happy win tune"
+
+Hindi words in English letters work too:
+
+- "bada dhamaka" · "darwaza band" · "jeet" · "paisa"
+
+The best matches come first.
+
+![Searching with a sentence](https://getsettalk.github.io/toonik-docs/screenshots/sound-search.webp)
+
+![Searching in Hinglish](https://getsettalk.github.io/toonik-docs/screenshots/sound-search-hinglish.webp)
+
+The sound packs are by Kenney (kenney.nl) and are public domain, so you can use them in anything you
+make, even videos you earn money from.
+
+## Voice maker
+
+Type a line, pick a **Voice** (Normal, Kid, Deep, Squeaky, Sleepy) and a **Language** (English or
+Hindi), tap **Preview** to hear it and **Add to timeline**.
+
+![Voice maker](https://getsettalk.github.io/toonik-docs/screenshots/voice-maker.webp)
+
+## Record your voice
+
+Tap **Record audio**, allow the microphone the first time, then **hold the button** to record and
+release to stop. Switch on **Play animation while recording** to speak in time with your drawings.
+Recording starts at the current frame.
+
+![Record audio](https://getsettalk.github.io/toonik-docs/screenshots/record-audio.webp)
+
+## Animate to the beat
+
+Turn on **Sound while animating** in **App settings → Sound** (it is off until you do). Then:
+
+- **Each frame's sound plays** as you step to it or drag the frame strip, so you can hear exactly
+  where a word or a hit lands.
+- A **pink note** sits above every frame a beat falls on — a drum hit, a clap, a plucked note. Put
+  your key poses there.
+- **The sound wave stays on screen while you play** the animation: the wave going by (already played
+  in pink), a dot on every beat, and the playhead in the middle lighting up as a beat passes. The
+  wave button in the top bar, next to the diamond, hides or shows it.
+
+![Sound wave while playing](https://getsettalk.github.io/toonik-docs/screenshots/sound-wave.webp)
+
+---
+
+# Make a movie, stickers and sharing
+
+## Make a movie
+
+Tap the **pink share arrow** at the top of the editor, or **Make movie** in the **⋮** menu.
+
+![Make movie](https://getsettalk.github.io/toonik-docs/screenshots/make-movie.webp)
+
+- **Movie name**
+- **Output size** — **Original** (the canvas size), **1080p**, **720p**, **480p**, **Square 1080**,
+  **Vertical** (1080 × 1920) or **Custom**.
+- **Format**:
+
+  ![Formats](https://getsettalk.github.io/toonik-docs/screenshots/movie-format.webp)
+
+  - **MP4** — a video with sound. Best for sharing on YouTube, Instagram, WhatsApp.
+  - **GIF** — an animated picture. Can have a see-through background. Choose **Loop forever** and
+    **Dithering** (smoother colours).
+  - **PNG Sequence** — every frame as a picture in a zip file, for video editing apps.
+- **Transparent background** — GIF and PNG only.
+- **Watermark** — a small Toonik logo in the corner. Off unless you turn it on.
+- **Include audio** — MP4 only, when the project has sound.
+
+Tap **Make movie**. When it is ready you can **Share** it, **Save to gallery**, or tap **Done**.
+
+![Your movie is ready](https://getsettalk.github.io/toonik-docs/screenshots/movie-ready.webp)
+
+Your movies are kept in the **Movies** tab on the home screen. Tap one to play it, share it, save it
+to your gallery or delete it.
+
+![Movies tab](https://getsettalk.github.io/toonik-docs/screenshots/movies.webp)
+
+![Playing a movie](https://getsettalk.github.io/toonik-docs/screenshots/movie-player.webp)
+
+## Make a WhatsApp sticker
+
+Open **⋮ → Make sticker**. Your animation becomes an animated WhatsApp sticker.
+
+![Make a sticker](https://getsettalk.github.io/toonik-docs/screenshots/make-sticker.webp)
+
+1. Pick up to three **Emoji** — WhatsApp suggests your sticker when someone types one of them.
+2. Choose a **Pack**, or type a name to start a new one.
+3. Tap **Make sticker**.
+
+Toonik frames the sticker around your drawing, so even a small doodle fills it. Stickers are
+512 × 512 and under 500 KB, so long animations may lose some frames.
+
+**WhatsApp needs at least 3 stickers in a pack** before it can be added. Until then the pack says how
+many more it needs. When it is ready, tap **Add to WhatsApp**. Packs already in WhatsApp show
+**Added**; with WhatsApp Business installed too, you can also **Add to Business**. A pack holds up to
+30 stickers.
+
+## Share a single frame
+
+Long-press a frame in the frame strip and tap **Share** to send that drawing as a picture.
+
+## Share or back up a whole project
+
+On the home screen, long-press a project and tap **Export project**. You get a `.flippa` file: send
+it to a friend, keep it as a backup, or open it on another phone with **⋮ → Import project**.
+
+---
+
+# Settings
+
+Open **Settings** from the bottom bar, the side menu or the pink circle at the top of the home
+screen.
+
+![Settings](https://getsettalk.github.io/toonik-docs/screenshots/settings-1.webp)
+
+At the top you can **Rate us** and **Share app**.
+
+## Appearance
+
+- **Theme** — System, Light or Dark.
+- **Status bar icons** — Auto (dark or light, whichever shows on the canvas), always dark or always
+  light.
+- **Hide status bar while drawing** — more room for the canvas. Swipe down from the top to see it for
+  a moment.
+
+## Drawing
+
+![Drawing and canvas settings](https://getsettalk.github.io/toonik-docs/screenshots/settings-2.webp)
+
+| Setting | What it does | Default |
+|---|---|---|
+| **Stylus pressure** | Pressing harder with a pen draws thicker | On |
+| **Touch sensitivity** | Soft, Medium or Firm — how hard you need to press | Medium |
+| **Minimum pressure** | The lightest a pen stroke can be | 12% |
+| **Draw input** | Stylus and touch, or **Stylus only** (fingers then only zoom and move) | Stylus and touch |
+| **Stylus hover preview** | Shows the brush or eraser size as a circle while a pen hovers over the screen | Off |
+| **Eraser outline** | Shows the eraser's size as a circle while you erase | On |
+
+## Canvas & gestures
+
+| Setting | What it does | Default |
+|---|---|---|
+| **Smooth zoom** | Lines stay crisp when you zoom in close (Android 13+). Turn off to see the real pixels | On |
+| **Canvas rotation** | Twist with two fingers to rotate the canvas | On |
+| **Tap gestures** | Two-finger tap to undo, three-finger tap to redo | On |
+| **Haptic feedback** | Small vibrations on some buttons | On |
+| **Left-handed toolbar** | Moves the tool options pill to the left edge | Off |
+| **Keep screen on** | The screen stays on while a project is open | On |
+
+## Sound
+
+| Setting | What it does | Default |
+|---|---|---|
+| **Sound while animating** | Each frame's sound plays as you step through frames, a note marks the frames a beat falls on, and the sound wave stays up while playing (see [Sound](https://getsettalk.github.io/toonik-docs/sound.md)) | Off |
+
+## Projects
+
+![Project and about settings](https://getsettalk.github.io/toonik-docs/screenshots/settings-3.webp)
+
+- **Default FPS** — the speed new projects start with (12 fps).
+- **Autosave** — how often your work is saved while you draw: every 5, 10 (default) or 30 seconds,
+  every minute or every 2 minutes.
+
+## About
+
+- **Open-source licences** — credits for the parts Toonik is built with, including the sound
+  library.
+- **Reset settings** — puts every setting back to its default. Your projects and movies are not
+  touched.
+
+---
+
+# Tips, shortcuts and questions
+
+## Lessons inside the app
+
+**Learn** (bottom bar on the home screen) has short lessons: frame-by-frame basics, frames per
+second, onion skin, layers, lasso and copy-paste, ruler and mirror, audio, making a movie and the
+object library. Tap a lesson to open its steps.
+
+![How to animate](https://getsettalk.github.io/toonik-docs/screenshots/learn.webp)
+
+In the editor, **⋮ → Help & tips** explains every tool in a sentence or two.
+
+![Help and tips](https://getsettalk.github.io/toonik-docs/screenshots/help-tips.webp)
+
+## Handy shortcuts
+
+- **Double-tap Brush** — ruler on or off.
+- **Double-tap Lasso** — select everything on the layer.
+- **Two-finger tap** — undo. **Three-finger tap** — redo.
+- **Long-press a frame** — hold, duplicate, copy, paste, move, share.
+- **Long-press any button** — shows its name.
+- **Copy, then Paste on another frame** — the drawing lands in the same spot.
+
+## Keyboard (tablets and phones with a keyboard)
+
+| Key | Does |
+|---|---|
+| ← / → | Previous / next frame |
+| ↑ / ↓ | Layer above / below |
+| Space | Play / stop |
+| O | Onion skin on / off |
+| B | Brush |
+| E | Eraser |
+| Ctrl + Z | Undo |
+| Ctrl + Shift + Z or Ctrl + Y | Redo |
+
+## Questions
+
+**Can I change the canvas size later?**
+No — choose it when you create the project. The speed, timing, name and background can change any
+time.
+
+**Why can't I add another layer?**
+A project can have up to 15 layers. Merge two layers (swipe a layer to the left and tap **Merge**) or delete one
+you no longer need.
+
+**My sticker pack has no "Add to WhatsApp" button.**
+It does, but it stays faded until the pack has 3 stickers — WhatsApp won't take fewer. Make more
+stickers into the same pack.
+
+**Something I moved off the canvas disappeared.**
+In a project without room around the canvas, whatever is outside the canvas is cut when you put it
+down. Turn on **Project settings → Draw outside the canvas** to have room around it (new projects
+have it already).
+
+**Smooth zoom makes no difference on my phone.**
+It needs Android 13 or newer, and it only shows when you zoom in close. Check that **Settings →
+Smooth zoom** is on.
+
+**Where are my movies?**
+In the **Movies** tab of the home screen. Use **Save to gallery** to put a copy in your phone's
+gallery.
+
+**How do I move my projects to a new phone?**
+Long-press a project → **Export project**, send the `.flippa` file to the new phone, and open it with
+**⋮ → Import project**.
+
+**Can I open my FlipaClip projects?**
+Yes. Export the project from FlipaClip as a `.fc` file, then in Toonik use **⋮ → Import project**.
+The drawings and layers come across.
+
+**Do I need an account? Does anything I draw get uploaded?**
+No account is needed, and your drawings stay on your phone. Everything in Toonik is free.

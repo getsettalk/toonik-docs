@@ -1,0 +1,41 @@
+# Toonik Guide
+
+> Toonik is a frame-by-frame animation app for Android (Google Play package com.toonik.app). This site is its official user guide, in English and Hindi: every screen and button, step by step, with screenshots.
+
+You draw a picture, add a frame, draw it again a little differently, and the frames play as an animation. Toonik has 41 brushes and a brush maker for your own, up to 15 layers, onion skin, a timeline with held drawings and loops, a lasso that moves, crops and animates part of a drawing, a library of ready-made objects, sound (a free sound library, a voice maker, recording, and hearing each frame's sound to animate to the beat), and export to video, GIF and WhatsApp stickers. Projects stay on the device; there are no accounts.
+
+The app's buttons and menus are in English; the Hindi pages keep those labels in English so they match the screen.
+
+## Guide
+
+- [Getting started](https://getsettalk.github.io/toonik-docs/getting-started.md): Your first project in Toonik — the home screen, creating a project, and keeping your work safe.
+- [The editor](https://getsettalk.github.io/toonik-docs/the-editor.md): Find your way around the drawing screen — the bars, the toolbar, gestures, undo and zoom.
+- [Drawing tools and colours](https://getsettalk.github.io/toonik-docs/drawing-tools.md): Brushes and making your own, eraser, fill, text, smudge, blur, magic cut, eyedropper, the colour picker and the ruler guides.
+- [Select, move, crop and animate](https://getsettalk.github.io/toonik-docs/selection.md): Use the lasso to pick up part of a drawing, then move, resize, rotate, flip, crop, animate or copy it.
+- [Frames, onion skin and the timeline](https://getsettalk.github.io/toonik-docs/frames-and-timeline.md): Add and arrange frames, hold drawings longer, see neighbouring frames, make loops and play your animation.
+- [Layers](https://getsettalk.github.io/toonik-docs/layers.md): Keep backgrounds, characters and effects apart, and use opacity, blending, clipping masks and glow.
+- [Images, video, objects and drawing outside the canvas](https://getsettalk.github.io/toonik-docs/images-video-objects.md): Bring in photos and videos, use ready-made characters, save your own, and draw in the room around the canvas.
+- [Sound](https://getsettalk.github.io/toonik-docs/sound.md): Add sound effects, music jingles and voices from the free library, make a voice, record yourself and line sound up with your frames.
+- [Make a movie, stickers and sharing](https://getsettalk.github.io/toonik-docs/export-and-share.md): Export MP4, GIF or PNG frames, make WhatsApp stickers, and share or back up whole projects.
+- [Settings](https://getsettalk.github.io/toonik-docs/settings.md): Every app setting, what it does and its default.
+- [Tips, shortcuts and questions](https://getsettalk.github.io/toonik-docs/tips-and-help.md): Lessons inside the app, handy shortcuts, keyboard keys and answers to common questions.
+
+## गाइड (हिन्दी)
+
+- [शुरुआत करें](https://getsettalk.github.io/toonik-docs/hi/getting-started.md): Toonik में आपका पहला प्रोजेक्ट — होम स्क्रीन, प्रोजेक्ट बनाना और अपना काम सुरक्षित रखना।
+- [एडिटर](https://getsettalk.github.io/toonik-docs/hi/the-editor.md): ड्रॉइंग स्क्रीन को समझें — पट्टियाँ, टूलबार, जेस्चर, अनडू और ज़ूम।
+- [ड्रॉइंग टूल और रंग](https://getsettalk.github.io/toonik-docs/hi/drawing-tools.md): ब्रश और अपना ब्रश बनाना, इरेज़र, फ़िल, टेक्स्ट, स्मज, ब्लर, मैजिक कट, आईड्रॉपर, रंग चुनने वाला और रूलर गाइड।
+- [चुनना, हिलाना, क्रॉप और एनिमेट करना](https://getsettalk.github.io/toonik-docs/hi/selection.md): लैसो से ड्रॉइंग का हिस्सा उठाएँ, फिर उसे हिलाएँ, बड़ा-छोटा करें, घुमाएँ, पलटें, क्रॉप करें, एनिमेट करें या कॉपी करें।
+- [फ़्रेम, ओनियन स्किन और टाइमलाइन](https://getsettalk.github.io/toonik-docs/hi/frames-and-timeline.md): फ़्रेम जोड़ें और सजाएँ, ड्रॉइंग देर तक रोकें, आसपास के फ़्रेम देखें, लूप बनाएँ और एनिमेशन चलाएँ।
+- [लेयर](https://getsettalk.github.io/toonik-docs/hi/layers.md): बैकग्राउंड, कैरेक्टर और इफ़ेक्ट अलग रखें, और opacity, ब्लेंडिंग, क्लिपिंग मास्क व ग्लो इस्तेमाल करें।
+- [तस्वीर, वीडियो, ऑब्जेक्ट और कैनवास के बाहर ड्रॉइंग](https://getsettalk.github.io/toonik-docs/hi/images-video-objects.md): फ़ोटो और वीडियो लाएँ, तैयार कैरेक्टर इस्तेमाल करें, अपने सेव करें, और कैनवास के आसपास की जगह में ड्रॉ करें।
+- [आवाज़](https://getsettalk.github.io/toonik-docs/hi/sound.md): मुफ़्त लाइब्रेरी से साउंड इफ़ेक्ट, म्यूज़िक जिंगल और आवाज़ें जोड़ें, आवाज़ बनाएँ, अपनी आवाज़ रिकॉर्ड करें और आवाज़ को फ़्रेम से मिलाएँ।
+- [मूवी, स्टिकर और शेयर करना](https://getsettalk.github.io/toonik-docs/hi/export-and-share.md): MP4, GIF या PNG फ़्रेम एक्सपोर्ट करें, WhatsApp स्टिकर बनाएँ, और पूरे प्रोजेक्ट शेयर करें या उनका बैकअप रखें।
+- [सेटिंग](https://getsettalk.github.io/toonik-docs/hi/settings.md): ऐप की हर सेटिंग, वह क्या करती है और शुरू में क्या रहती है।
+- [टिप्स, शॉर्टकट और सवाल](https://getsettalk.github.io/toonik-docs/hi/tips-and-help.md): ऐप के अंदर पाठ, काम के शॉर्टकट, कीबोर्ड की कुंजियाँ और आम सवालों के जवाब।
+
+## Optional
+
+- [The whole English guide in one file](https://getsettalk.github.io/toonik-docs/llms-full.txt): every page above, in order
+- [Privacy policy](https://getsettalk.github.io/toonik-docs/privacy.html): what the app does and does not collect
+- [Toonik on Google Play](https://play.google.com/store/apps/details?id=com.toonik.app): download the app

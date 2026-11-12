@@ -1,0 +1,375 @@
+<title>Toonik Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style>
+  :root {
+    --ground: #fffcfd;
+    --surface: #f8f3f6;
+    --edge: #ece2e8;
+    --ink: #1a1320;
+    --muted: #6b5f6e;
+    --accent: #e03a63;
+    --accent-soft: #fff0f4;
+    --plum: #8b3fd4;
+    --shadow: 0 1px 2px rgba(26, 19, 32, .05), 0 12px 32px -18px rgba(26, 19, 32, .3);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #15111b;
+      --surface: #1f1927;
+      --edge: #322a3c;
+      --ink: #f3eef4;
+      --muted: #a89cab;
+      --accent: #ff6d90;
+      --accent-soft: #2a1a22;
+      --plum: #c08cf5;
+      --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 12px 32px -18px rgba(0, 0, 0, .8);
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #15111b;
+    --surface: #1f1927;
+    --edge: #322a3c;
+    --ink: #f3eef4;
+    --muted: #a89cab;
+    --accent: #ff6d90;
+    --accent-soft: #2a1a22;
+    --plum: #c08cf5;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 12px 32px -18px rgba(0, 0, 0, .8);
+  }
+
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--ink);
+    font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+    font-size: 17px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 44rem;
+    margin: 0 auto;
+    padding-inline: 20px;
+    padding-block: clamp(36px, 7vw, 76px) 72px;
+  }
+
+  .brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    font-family: Poppins, system-ui, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: .01em;
+    color: var(--ink);
+    text-decoration: none;
+  }
+  .brand .mark {
+    width: 26px;
+    height: 26px;
+    border-radius: 7px;
+    background: linear-gradient(135deg, #ff4b76, #a855f7);
+    position: relative;
+    flex: none;
+  }
+  /* The two flipbook pages from the app icon, at badge scale. */
+  .brand .mark::before,
+  .brand .mark::after {
+    content: "";
+    position: absolute;
+    border-radius: 2.5px;
+    background: #fff;
+  }
+  .brand .mark::before { inset: 7px 5px 6px 9px; opacity: .55; }
+  .brand .mark::after  { inset: 6px 8px 7px 5px; }
+
+  h1 {
+    font-family: Poppins, system-ui, sans-serif;
+    font-weight: 700;
+    font-size: clamp(2rem, 6vw, 2.7rem);
+    line-height: 1.12;
+    letter-spacing: -.02em;
+    text-wrap: balance;
+    margin: 26px 0 10px;
+  }
+  .updated {
+    font-family: Poppins, system-ui, sans-serif;
+    font-size: 13px;
+    color: var(--muted);
+    margin: 0 0 34px;
+  }
+
+  h2 {
+    font-family: Poppins, system-ui, sans-serif;
+    font-weight: 600;
+    font-size: 1.22rem;
+    letter-spacing: -.01em;
+    text-wrap: balance;
+    margin: 44px 0 12px;
+    padding-top: 22px;
+    border-top: 1px solid var(--edge);
+  }
+  p { margin: 0 0 16px; }
+  strong { font-weight: 600; }
+  a { color: var(--accent); text-underline-offset: 3px; }
+  a:focus-visible,
+  .brand:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+
+  /* The three facts that decide this whole document — lifted once, and only once. */
+  .summary {
+    background: var(--surface);
+    border: 1px solid var(--edge);
+    border-radius: 14px;
+    box-shadow: var(--shadow);
+    padding: 6px 22px;
+    margin: 0 0 8px;
+  }
+  .summary dl { margin: 0; }
+  .summary div {
+    display: grid;
+    grid-template-columns: 1.6rem 1fr;
+    gap: 2px 12px;
+    padding: 17px 0;
+    border-top: 1px solid var(--edge);
+  }
+  .summary div:first-child { border-top: 0; }
+  .summary .tick {
+    grid-row: span 2;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+    background: var(--accent-soft);
+    color: var(--accent);
+    display: grid;
+    place-items: center;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 2px;
+  }
+  .summary dt {
+    font-family: Poppins, system-ui, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .summary dd { margin: 0; font-size: 15.5px; color: var(--muted); line-height: 1.55; }
+
+  .perms { overflow-x: auto; margin: 0 0 18px; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15.5px;
+    min-width: 30rem;
+  }
+  th, td {
+    text-align: left;
+    vertical-align: top;
+    padding: 13px 14px 13px 0;
+    border-bottom: 1px solid var(--edge);
+  }
+  th {
+    font-family: Poppins, system-ui, sans-serif;
+    font-weight: 600;
+    font-size: 11.5px;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border-bottom-color: var(--ink);
+    padding-bottom: 9px;
+  }
+  td:first-child { font-family: Poppins, system-ui, sans-serif; font-weight: 600; font-size: 15px; white-space: nowrap; }
+  td code, p code {
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-size: .84em;
+    color: var(--muted);
+  }
+  td:last-child, th:last-child { padding-right: 0; }
+
+  .contact {
+    margin-top: 44px;
+    padding: 20px 22px;
+    border: 1px solid var(--edge);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 12px 12px 0;
+    background: var(--surface);
+  }
+  .contact p { margin: 0; }
+  .contact .label {
+    font-family: Poppins, system-ui, sans-serif;
+    font-size: 11.5px;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 5px;
+  }
+  footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid var(--edge);
+    font-family: Poppins, system-ui, sans-serif;
+    font-size: 12.5px;
+    color: var(--muted);
+  }
+</style>
+
+<div class="wrap">
+  <span class="brand"><span class="mark" aria-hidden="true"></span>Toonik</span>
+
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated 12 November 2026</p>
+
+  <p>
+    Toonik is a frame-by-frame animation app for Android. This policy explains what the app does
+    with your information. The short version: your drawings never leave your device, and the only
+    thing the app sends is anonymous usage statistics.
+  </p>
+
+  <div class="summary">
+    <dl>
+      <div>
+        <span class="tick" aria-hidden="true">✓</span>
+        <dt>No accounts, no advertising</dt>
+        <dd>No sign-in and no profiles. No advertising and no third-party tracking of any kind.</dd>
+      </div>
+      <div>
+        <span class="tick" aria-hidden="true">✓</span>
+        <dt>Anonymous analytics only</dt>
+        <dd>Usage statistics through Firebase — which features get used, never what you draw or type.</dd>
+      </div>
+      <div>
+        <span class="tick" aria-hidden="true">✓</span>
+        <dt>Your work stays on your device</dt>
+        <dd>Drawings, projects, audio and saved objects are written to private storage on your phone and never uploaded.</dd>
+      </div>
+    </dl>
+  </div>
+
+  <h2>Your work stays on your device</h2>
+  <p>
+    Every drawing, project, animation, audio recording, saved object and brush you make in the
+    brush maker is written to private storage on your own device. None of it is uploaded anywhere.
+    We cannot see your work, and we run no servers that hold it.
+  </p>
+  <p>
+    <strong>Sound and voice stay on the device too.</strong> The sound library is part of the app,
+    so picking a sound downloads nothing. Sounds you add are worked on right on your phone — to draw
+    their wave and, with “Sound while animating” on, to find where the beats fall. The Voice maker
+    turns your text into speech with the speech engine already on your phone; Toonik sends the text
+    nowhere, though that engine is made by your phone's maker or Google and follows their policy.
+  </p>
+  <p>
+    Uninstalling Toonik deletes everything it stored, so export anything you want to keep first.
+  </p>
+  <p>
+    When you export a video, GIF, image sequence or project backup, or use the share button, that
+    file goes wherever <strong>you</strong> send it — your gallery, your files, or an app you pick.
+    Once it leaves Toonik, the privacy policy of that destination applies instead of this one.
+  </p>
+
+  <h2>What the app sends over the internet</h2>
+  <p>
+    Toonik holds the <code>INTERNET</code> permission and uses it for exactly four things, none of
+    which involve anything you draw:
+  </p>
+  <p>
+    <strong>Anonymous usage analytics,</strong> through Google Firebase Analytics: which features get
+    used and how often, so we know what to improve. That means events like “a movie was exported as
+    MP4” or “a sticker was created” — never the drawing, never a project or layer name, never
+    anything you type. Counts such as frame numbers are rounded into bands first. Firebase assigns a
+    random app-instance identifier and records device model, OS version, country and language, under
+    <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.
+    These analytics are part of the app and have no switch in Settings. If you turned them off in an
+    earlier version, that choice is kept, and collection stays off inside the SDK itself.
+  </p>
+  <p>
+    <strong>Update checks.</strong> Toonik asks the Play Store app whether a newer version exists so
+    it can prompt you to update. That happens inside Google Play and we receive nothing from it.
+  </p>
+  <p>
+    <strong>The rating prompt,</strong> if you choose to leave a review — also handled by Google Play.
+  </p>
+  <p>
+    <strong>News and update notifications,</strong> through Google Firebase Cloud Messaging. The app
+    joins one shared topic that every install receives, so Google gives the device a random messaging
+    token to deliver to. We never see or store that token, and we cannot message any one person —
+    only everyone at once. When an announcement comes with a picture, the app downloads that picture
+    from the address in the message to show it. Messages you receive are kept in the app's inbox on
+    your device.
+    <strong>You can switch them off</strong> by turning off Toonik's notifications in Android's
+    settings.
+  </p>
+  <p>
+    There is no advertising and no third-party tracking of any kind.
+  </p>
+
+  <h2>Permissions, and why each one exists</h2>
+  <div class="perms">
+    <table>
+      <thead>
+        <tr><th scope="col">Permission</th><th scope="col">What it is for</th><th scope="col">When it applies</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Microphone</td>
+          <td>Recording a voice-over or sound effect onto your animation's audio track.</td>
+          <td>Only while you are actively recording. Recordings are saved into your project on the device and never transmitted.</td>
+        </tr>
+        <tr>
+          <td>Vibration</td>
+          <td>Brief haptic feedback on some controls.</td>
+          <td>Can be switched off in Settings.</td>
+        </tr>
+        <tr>
+          <td>Notifications</td>
+          <td>Showing news and update announcements.</td>
+          <td>Asked once on Android 13 and newer; you can say no, and change it any time in Android's settings.</td>
+        </tr>
+        <tr>
+          <td>Storage</td>
+          <td>Saving an exported video or image to your gallery.</td>
+          <td>Only when you export or save, and only on Android 9 and older — newer versions do not need it.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p>
+    Toonik does <strong>not</strong> request access to your location, contacts, calendar, phone, or
+    your photo library at large.
+  </p>
+  <p>
+    <strong>Camera, photos, videos and files.</strong> When you add a photo or video to your animation,
+    use one as a canvas background or pick a picture as a brush tip, Toonik hands you Android's own
+    photo picker, camera app or file picker. Only the photos, videos or files you choose come back (up
+    to 30 photos at a time), and they are copied into your project — or, for a brush tip, into the
+    app's brushes — on the device. Toonik never browses your gallery and holds no camera
+    permission of its own.
+  </p>
+
+  <h2>Children</h2>
+  <p>
+    Toonik is suitable for all ages. There is no sign-up, no chat, no social feature, no advertising
+    and no purchase flow that gathers information. The anonymous usage analytics described above
+    collect nothing that identifies a person.
+  </p>
+
+  <h2>Your rights</h2>
+  <p>
+    We hold no account and no personal data about you — the analytics above are anonymous and cannot
+    be traced back to a person, so there is nothing for us to disclose, correct, export or delete. Your work is yours and sits on your own device, where you can remove it whenever you
+    like — project by project in the app, or all at once by uninstalling.
+  </p>
+
+  <h2>Changes to this policy</h2>
+  <p>
+    If this policy changes, the revised version will be published here and the date at the top
+    updated. If a future release ever begins collecting data, we will say so plainly before it does.
+  </p>
+
+  <div class="contact">
+    <p class="label">Contact</p>
+    <p>Questions about this policy: <a href="mailto:rajrock7254@gmail.com"><strong>rajrock7254@gmail.com</strong></a></p>
+  </div>
+
+  <footer>Toonik · Privacy Policy · 12 November 2026</footer>
+</div>
